@@ -3,7 +3,7 @@
 # Learn how to launch a private Docker Registry with SSL
 
 # Step 1 - Starting Registry
-# It's important to mount the volume /var/lib/registry. This is where the Registry will store all of the pushed images. Mounting the directory will allow you to restart and upgrade the container in future.
+# Its important to mount the volume /var/lib/registry. This is where the Registry will store all of the pushed images. Mounting the directory will allow you to restart and upgrade the container in future.
 
 docker run -d -e \
  VIRTUAL_HOST=registry.test.training.katacoda.com \
